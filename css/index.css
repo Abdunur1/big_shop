@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inika:wght@400;700&family=Pathway+Gothic+One&family=Reggae+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans Condensed", serif;
+    font-style: normal;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+}
+
+.header input {
+    width: 50%;
+    max-width: 542px;
+    height: 52px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    margin-top: 24px;
+    margin-left: 100px;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.header button {
+    width: 52px;
+    height: 52px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    margin: 24px;
+    
+}
+
+
+.menu {
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    background-color: #d9d9d9;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.menu-item:hover {
+    background-color: #c4c4c4;
+}
+
